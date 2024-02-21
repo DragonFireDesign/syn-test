@@ -1,0 +1,336 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background: #F8F8FF;
+    color: #2B2D42;
+    font-family: 'Poppins', sans-serif;
+    font-weight: false;
+    line-height: 1.75;
+}
+
+.hero {
+    background: rgba(57, 48, 182, 1.0);
+    background: linear-gradient(135deg, rgba(57, 48, 182, 1.0), rgba(8, 39, 72, 1.0));
+}
+
+p {
+    font-size: 1em;
+    color: rgb(78, 77, 96);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: true;
+    line-height: 1.15;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 4rem;
+}
+
+@media (max-width: 1199px) {
+    /* Styles for screens smaller than 1199px */
+    h1 {
+        font-size: 3rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 991px) {
+    /* Styles for screens smaller than 991px */
+    h1 {
+        font-size: 2.5rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 767px) {
+    /* Styles for screens smaller than 768px */
+    h1 {
+        font-size: 2.1875rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 575px) {
+    /* Styles for screens smaller than 575px */
+    h1 {
+        font-size: 1.5625rem;
+
+        /* Even smaller size for very small screens */
+    }
+}
+@media (min-width: 1400px) { 
+h1 {
+} 
+}
+
+h2,
+.text-size-h2 {
+    font-size: 3.25rem;
+}
+
+@media (max-width: 1199px) {
+    /* Styles for screens smaller than 1199px */
+    h2 {
+        font-size: 3rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 991px) {
+    /* Styles for screens smaller than 991px */
+    h2 {
+        font-size: 1.9375rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    h2 {
+        font-size: 1.625rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 575px) {
+    /* Styles for screens smaller than 575px */
+    h2 {
+        font-size: 1.125rem;
+
+        /* Even smaller size for very small screens */
+    }
+}
+
+h3,
+.text-size-h3 {
+    font-size: 1.9375rem;
+}
+
+@media (max-width: 991px) {
+    /* Styles for screens smaller than 768px */
+    h3 {
+        font-size: 1.75rem;
+        font-weight: 500;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 575px) {
+    /* Styles for screens smaller than 575px */
+    h3 {
+        font-size: 1.375rem;
+
+        /* Even smaller size for very small screens */
+    }
+}
+
+h4,
+.text-size-h4 {
+    font-size: 2.1875rem;
+    font-weight: 500;
+}
+
+@media (max-width: 1399px) {
+    /* Styles for screens smaller than 1199px */
+    h4 {
+        font-size: 2rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 1199px) {
+    /* Styles for screens smaller than 1199px */
+    h4 {
+        font-size: 1.5rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 991px) {
+    /* Styles for screens smaller than 991px */
+    h4 {
+        font-size: 1.4375rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 575px) {
+    /* Styles for screens smaller than 575px */
+    h4 {
+        font-size: 0.9375rem;
+
+        /* Even smaller size for very small screens */
+    }
+}
+
+h5,
+.text-size-h5 {
+    font-size: 1.25rem;
+}
+
+.text-caption {
+    font-size: 0.8rem;
+}
+
+small,
+.text-small {
+    font-size: 0.64rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+
+    /* Base size for all screens */
+    font-weight: 500;
+    color: rgb(78, 77, 96);
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .lead {
+        font-size: 1rem;
+
+        /* Smaller size for small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for screens smaller than 480px */
+    .lead {
+        font-size: 0.875rem;
+
+        /* Even smaller size for very small screens */
+    }
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+@media (max-width: 1199px) {
+    /* Styles for screens smaller than 1199px */
+    .title {
+        font-size: 1.375rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 991px) {
+    /* Styles for screens smaller than 991px */
+    .title {
+        font-size: 1.1875rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .title {
+        font-size: 1.0625rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 575px) {
+    /* Styles for screens smaller than 480px */
+    .title {
+        font-size: 1rem;
+
+        /* Even smaller size for very small screens */
+    }
+}
+
+.gradient-heading2 {
+    background: linear-gradient(135deg, rgba(238, 76, 76, 1.0), rgba(57, 43, 255, 1.0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-sentence {
+    font-size: 2rem;
+
+    /* Base size for all screens */
+    color: rgb(78, 77, 96);
+}
+
+@media (max-width: 991px) {
+    /* Styles for screens smaller than 991px */
+    .hero-sentence {
+        font-size: 1.6875rem;
+
+        /* Smaller size for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .hero-sentence {
+        font-size: 1.5rem;
+
+        /* Smaller size for small screens */
+    }
+}
+
+@media (max-width: 575px) {
+    /* Styles for screens smaller than 480px */
+    .hero-sentence {
+        font-size: 0.8125rem;
+
+        /* Even smaller size for very small screens */
+    }
+}
+
+.btn-cta {
+    background-color: #2B2D42;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.btn-cta:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* New media query for XS screens */
+@media (max-width: 575px) {
+    .btn-cta {
+        font-size: 0.875rem;
+
+        /* or adjust padding/line-height as needed */
+    }
+
+    .btn-cta.btn-cta:hover {
+        font-size: 0.875rem;
+
+        /* or adjust padding/line-height as needed */
+    }
+}
+
+
