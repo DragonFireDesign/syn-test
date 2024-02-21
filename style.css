@@ -123,14 +123,11 @@ h3,
     font-size: 1.9375rem;
 }
 
-@media (max-width: 991px) {
-    /* Styles for screens smaller than 768px */
-    h3 {
-        font-size: 1.625rem;
-        font-weight: 500;
-
-        /* Smaller size for smaller screens */
-    }
+@media (max-width: 767px) {
+  /* Styles for screens smaller than 768px */
+  h3 {
+    font-size: 1.6875rem; /* Smaller size for smaller screens */
+  }
 }
 
 @media (max-width: 575px) {
